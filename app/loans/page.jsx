@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
+import Image from "next/image";
 import {
   HandCoins,
   BookOpenCheck,
@@ -7,7 +7,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 
-export default function Loans() {
+export default function LoansPage() {
   const loans = [
     {
       icon: <BookOpenCheck className="text-green-600" size={28} />,
@@ -27,7 +27,7 @@ export default function Loans() {
   ];
 
   return (
-    <div className="bg-[#f8fbff] min-h-screen">
+    <div className="min-h-screen bg-[#f8fbff]">
       {/* HERO */}
       <section className="py-16">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:px-6 lg:grid-cols-2">
@@ -46,14 +46,14 @@ export default function Loans() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
-                to="/accounts"
+                href="/accounts"
                 className="rounded-full border border-green-600 px-6 py-3 text-sm font-semibold text-green-700 hover:bg-green-50"
               >
                 Back to Accounts
               </Link>
 
               <Link
-                to="/cards"
+                href="/cards"
                 className="rounded-full bg-green-600 px-6 py-3 text-sm font-semibold text-white hover:bg-green-700"
               >
                 View Cards
@@ -64,24 +64,26 @@ export default function Loans() {
           {/* RIGHT */}
           <div>
             <div className="relative overflow-hidden rounded-4xl bg-white p-4 shadow-lg">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
                 alt="Loan support"
+                width={1200}
+                height={700}
                 className="h-107.5 w-full rounded-[28px] object-cover"
               />
 
-              <div className="absolute top-6 right-6 md:top-10 md:right-10 w-62.5 rounded-3xl bg-white p-5 shadow-xl">
-                <h3 className="text-xl md:text-2xl font-bold text-green-700 leading-snug">
+              <div className="absolute right-6 top-6 w-62.5 rounded-3xl bg-white p-5 shadow-xl md:right-10 md:top-10">
+                <h3 className="text-xl font-bold leading-snug text-green-700 md:text-2xl">
                   Financial Support
                 </h3>
-                <p className="mt-2 text-sm md:text-base text-slate-600 leading-6">
+                <p className="mt-2 text-sm leading-6 text-slate-600 md:text-base">
                   Education-focused loans that help students manage important
                   costs.
                 </p>
               </div>
 
-              <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 rounded-3xl bg-green-600 px-6 py-5 text-white shadow-xl">
-                <h3 className="text-3xl md:text-4xl font-bold">Easy</h3>
+              <div className="absolute bottom-6 left-6 rounded-3xl bg-green-600 px-6 py-5 text-white shadow-xl md:bottom-10 md:left-10">
+                <h3 className="text-3xl font-bold md:text-4xl">Easy</h3>
                 <p className="mt-1 text-lg font-semibold">Installments</p>
                 <p className="mt-1 text-sm text-green-100">
                   Flexible student support
@@ -99,7 +101,7 @@ export default function Loans() {
             <p className="text-lg font-semibold text-green-600">
               Loan Facilities
             </p>
-            <h2 className="mt-2 text-3xl md:text-4xl font-bold text-slate-900">
+            <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">
               Available Loan Services
             </h2>
           </div>
