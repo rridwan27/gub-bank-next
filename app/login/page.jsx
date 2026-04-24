@@ -99,7 +99,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex min-h-[80vh] items-center justify-center bg-[#f5f7fb] px-4">
+    <div className="flex min-h-screen items-center justify-center bg-[#f5f7fb] px-4">
       <div className="w-full max-w-md rounded-3xl border border-green-100 bg-white p-8 shadow-md">
         <h1 className="mb-3 text-center text-3xl font-bold text-green-800">
           {isSignup ? "Create Account" : "Login"}
