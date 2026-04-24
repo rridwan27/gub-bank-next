@@ -10,8 +10,9 @@ const slides = [
     description:
       "Peace of mind for cardholders whether at home, travelling abroad, or making everyday purchases.",
     primary: "Grab Your Card",
-    image:
-      "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1200&q=80",
+    // image:
+    //   "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1200&q=80",
+    image: "/card1.jpeg",
   },
   {
     eyebrow: "Convenience. Accessibility. Reliability",
