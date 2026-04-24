@@ -19,7 +19,7 @@ const slides = [
     description:
       "Enjoy 24/7 ATM access—banking convenience whenever you need it, day or night.",
     primary: "Open Account",
-    image: "/card2.png",
+    image: "/card2.0.png",
   },
   {
     eyebrow: "Cross-border. Transferability. Dependability",

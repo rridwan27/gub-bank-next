@@ -18,8 +18,8 @@ export default function Navbar() {
           <Image
             src="/GUB-LOGO.png"
             alt="GUB Bank logo"
-            width={48}
-            height={48}
+            width={96}
+            height={96}
             className="rounded-full object-cover"
           />
 
