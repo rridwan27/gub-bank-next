@@ -10,8 +10,6 @@ const slides = [
     description:
       "Peace of mind for cardholders whether at home, travelling abroad, or making everyday purchases.",
     primary: "Grab Your Card",
-    // image:
-    //   "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1200&q=80",
     image: "/card1.jpeg",
   },
   {
@@ -21,8 +19,7 @@ const slides = [
     description:
       "Enjoy 24/7 ATM access—banking convenience whenever you need it, day or night.",
     primary: "Open Account",
-    image:
-      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
+    image: "/card2.png",
   },
   {
     eyebrow: "Cross-border. Transferability. Dependability",

@@ -47,75 +47,10 @@ export default function AboutPage() {
     },
   ];
 
-  const galleryImages = ["/gub-cmps-1.jpg", "/gub-bn.jpg", "/gub-cmps-3.jpg"];
+  const galleryImages = ["/gub-cmps-1.jpg", "/gub-bnn.jpg", "/gub-cmps-3.jpg"];
 
   return (
     <div className="min-h-screen bg-linear-to-b from-green-50 via-white to-white">
-      {/* <section className="mx-auto max-w-7xl px-4 pb-12 pt-12 md:px-6 md:pt-16">
-        <div className="grid items-center gap-10 md:grid-cols-2">
-          <div>
-            <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700">
-              <BadgeCheck size={16} />
-              About GUB Bank
-            </p>
-
-            <h1 className="mb-5 text-4xl font-bold leading-tight text-slate-900 md:text-5xl">
-              A Smart Banking and
-              <span className="text-green-600"> Tuition Payment System </span>
-              for GUB Students
-            </h1>
-
-            <p className="mb-6 text-base leading-8 text-slate-600 md:text-lg">
-              GUB Bank is a modern student banking interface developed for Green
-              University users. This project is designed to make banking-related
-              services more organized, professional, and user-friendly by
-              combining secure login, tuition payment, account services, card
-              services, and loan information into one clean digital platform.
-            </p>
-
-            <div className="flex flex-wrap gap-4">
-              <a
-                href="#services"
-                className="rounded-full bg-green-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-green-700"
-              >
-                Explore Services
-              </a>
-
-              <a
-                href="#videos"
-                className="rounded-full border border-green-600 px-6 py-3 text-sm font-semibold text-green-700 transition hover:bg-green-50"
-              >
-                Watch Videos
-              </a>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="/gub-cmps-1.jpg"
-              alt="GUB campus"
-              width={800}
-              height={500}
-              className="h-56 w-full rounded-3xl border border-green-100 object-cover shadow-md"
-            />
-            <Image
-              src="/gub-bn.jpg"
-              alt="GUB students"
-              width={800}
-              height={500}
-              className="mt-8 h-56 w-full rounded-3xl border border-green-100 object-cover shadow-md"
-            />
-            <Image
-              src="/gub-cmps-3.jpg"
-              alt="GUB building"
-              width={1200}
-              height={600}
-              className="col-span-2 h-64 w-full rounded-3xl border border-green-100 object-cover shadow-md"
-            />
-          </div>
-        </div>
-      </section> */}
-
       <section className="mx-auto max-w-7xl px-4 pb-12 pt-12 md:px-6 md:pt-16">
         <div className="grid items-center gap-10 md:grid-cols-2">
           {/* LEFT */}
